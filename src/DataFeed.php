@@ -54,7 +54,7 @@ class DataFeed extends Base
     {
         $this->validateMethod();
 
-        switch($method) {
+        switch($this->method) {
             case 'POST':
                 return isset($_POST[$key]) ? self::sanitizeParameter($_POST[$key]) : null;
             case 'GET':
