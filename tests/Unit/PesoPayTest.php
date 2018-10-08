@@ -8,7 +8,7 @@ class PesoPayTest extends PHPUnit_Framework_TestCase
      */
     public function SupplyAnEmptyValueWhenOpeningAForm($data)
     {
-        $this->expectException(Dynamix\PesoPay\Exceptions\Parameters\ParameterException::class);
+        $this->expectException(JeffMabazza\PesoPay\Exceptions\Parameters\ParameterException::class);
         $this->expectExceptionCode(422);
         $this->expectExceptionMessage('No parameters passed.');
 
@@ -21,7 +21,7 @@ class PesoPayTest extends PHPUnit_Framework_TestCase
      */
     public function SupplyMissingValueWhenOpeningAForm($data)
     {
-        $this->expectException(Dynamix\PesoPay\Exceptions\Parameters\ParameterException::class);
+        $this->expectException(JeffMabazza\PesoPay\Exceptions\Parameters\ParameterException::class);
         $this->expectExceptionCode(422);
         $this->expectExceptionMessage('Missing required parameters.');
 
@@ -69,18 +69,18 @@ class PesoPayTest extends PHPUnit_Framework_TestCase
      * Instantiate the PesoPay class.
      * @param  array   $data                The parameters.
      * @param  boolean $data_to_constructor Place the $data parameters weather in the constructor or in the setFormParameters(). Default is constructor.
-     * @return Dynamix\PesoPay\PesoPay
+     * @return JeffMabazza\PesoPay\PesoPay
      */
     private function PesoPayInstance($data = null, $data_to_constructor = true)
     {
         if($data !== null) {
             if($data_to_constructor === false) {
-                return (new Dynamix\PesoPay\PesoPay())->setFormParameters($data);
+                return (new JeffMabazza\PesoPay\PesoPay())->setFormParameters($data);
             }
 
-            return new Dynamix\PesoPay\PesoPay($data);
+            return new JeffMabazza\PesoPay\PesoPay($data);
         }
 
-        return new Dynamix\PesoPay\PesoPay();
+        return new JeffMabazza\PesoPay\PesoPay();
     }
 }

@@ -7,7 +7,7 @@ class DataFeedTest extends PHPUnit_Framework_TestCase
      */
     public function SetAnInvalidMethod()
     {
-        $this->expectException(Dynamix\PesoPay\Exceptions\Parameters\ParameterException::class);
+        $this->expectException(JeffMabazza\PesoPay\Exceptions\Parameters\ParameterException::class);
 
         $this->DataFeedInstance()->setMethod('INVALID');
     }
@@ -25,10 +25,10 @@ class DataFeedTest extends PHPUnit_Framework_TestCase
 
     /**
      * Instantiate the DataFeed class.
-     * @return \Dynamix\PesoPay\DataFeed
+     * @return \JeffMabazza\PesoPay\DataFeed
      */
     private function DataFeedInstance()
     {
-        return new Dynamix\PesoPay\DataFeed();
+        return new JeffMabazza\PesoPay\DataFeed();
     }
 }

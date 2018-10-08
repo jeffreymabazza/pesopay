@@ -1,6 +1,6 @@
 <?php
 
-namespace Dynamix\PesoPay\Helpers;
+namespace JeffMabazza\PesoPay\Helpers;
 
 class Helper
 {

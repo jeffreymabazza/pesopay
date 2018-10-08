@@ -1,14 +1,14 @@
 <?php
 
-namespace Dynamix\PesoPay;
+namespace JeffMabazza\PesoPay;
 
 use Closure;
 use Exception;
-use Dynamix\PesoPay\Encryptor;
-use Dynamix\PesoPay\Helpers\Helper;
-use Dynamix\PesoPay\Contracts\PayGateInterface;
-use Dynamix\PesoPay\Helpers\ValidateFormParameters;
-use Dynamix\PesoPay\Exceptions\Validations\ValidationException;
+use JeffMabazza\PesoPay\Encryptor;
+use JeffMabazza\PesoPay\Helpers\Helper;
+use JeffMabazza\PesoPay\Contracts\PayGateInterface;
+use JeffMabazza\PesoPay\Helpers\ValidateFormParameters;
+use JeffMabazza\PesoPay\Exceptions\Validations\ValidationException;
 
 class PesoPay extends Base implements PayGateInterface
 {

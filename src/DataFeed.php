@@ -1,8 +1,8 @@
 <?php
 
-namespace Dynamix\PesoPay;
+namespace JeffMabazza\PesoPay;
 
-use Dynamix\PesoPay\Exceptions\Parameters\ParameterException as Parameter;
+use JeffMabazza\PesoPay\Exceptions\Parameters\ParameterException as Parameter;
 
 class DataFeed extends Base
 {

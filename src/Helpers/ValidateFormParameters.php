@@ -1,10 +1,10 @@
 <?php
 
-namespace Dynamix\PesoPay\Helpers;
+namespace JeffMabazza\PesoPay\Helpers;
 
-use Dynamix\PesoPay\Base;
-use Dynamix\PesoPay\Helpers\Helper;
-use Dynamix\PesoPay\Exceptions\Parameters\ParameterException as Parameter;
+use JeffMabazza\PesoPay\Base;
+use JeffMabazza\PesoPay\Helpers\Helper;
+use JeffMabazza\PesoPay\Exceptions\Parameters\ParameterException as Parameter;
 
 class ValidateFormParameters extends Base
 {

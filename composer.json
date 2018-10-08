@@ -1,5 +1,5 @@
 {
-    "name": "dynamix/pesopay",
+    "name": "JeffMabazza/pesopay",
     "description": "Library for PesoPay PayGate Integration",
     "keywords": ["pesopay", "composer", "package"],
     "license": "mit",
@@ -16,7 +16,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "Dynamix\\PesoPay\\": "src/",
+            "JeffMabazza\\PesoPay\\": "src/",
             "Tests\\": "tests"
         },
         "classmap": ["src/Helpers"]

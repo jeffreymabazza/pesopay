@@ -1,6 +1,6 @@
 <?php
 
-namespace Dynamix\PesoPay;
+namespace JeffMabazza\PesoPay;
 
 use LordDashMe\StaticClassInterface\Facade;
 

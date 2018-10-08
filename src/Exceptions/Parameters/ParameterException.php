@@ -1,6 +1,6 @@
 <?php
 
-namespace Dynamix\PesoPay\Exceptions\Parameters;
+namespace JeffMabazza\PesoPay\Exceptions\Parameters;
 
 class ParameterException extends \Exception
 {

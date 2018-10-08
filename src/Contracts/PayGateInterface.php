@@ -1,6 +1,6 @@
 <?php
 
-namespace Dynamix\PesoPay\Contracts;
+namespace JeffMabazza\PesoPay\Contracts;
 
 interface PayGateInterface
 {

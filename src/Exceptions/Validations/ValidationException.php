@@ -1,8 +1,8 @@
 <?php
 
-namespace Dynamix\PesoPay\Exceptions\Validations;
+namespace JeffMabazza\PesoPay\Exceptions\Validations;
 
-use Dynamix\PesoPay\Exceptions\ThrowableInterface;
+use JeffMabazza\PesoPay\Exceptions\ThrowableInterface;
 
 class ValidationException extends \Exception implements ThrowableInterface
 {
