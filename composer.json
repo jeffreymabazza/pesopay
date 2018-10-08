@@ -1,0 +1,24 @@
+{
+    "name": "dynamix/pesopay",
+    "description": "Library for PesoPay PayGate Integration",
+    "keywords": ["pesopay", "composer", "package"],
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Jeff Mabazza",
+            "email": "jeffreymabazza@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {},
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Dynamix\\PesoPay\\": "src/",
+            "Tests\\": "tests"
+        },
+        "classmap": ["src/Helpers"]
+    }
+}
